@@ -1,0 +1,103 @@
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* custom styles */
+*,*::before,
+*::after{
+    box-sizing: border-box;
+
+}
+body{
+    color: white;
+    font-size: 16px;
+    text-align: center;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 60px 100px;
+    background: url("../media/img.jpg") no-repeat;
+    background-size: cover;
+}
+/* header */
+h1{
+    font-size: 34px ;
+    margin: 40px 0 ;
+}
+/* box */
+.box{
+    height: 200px;
+    width: 300px;
+    border-radius: 5px;
+    color: black;
+    background-color: #F74247;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 200px;
+}
+.linear{
+    
+    background: linear-gradient( 90deg ,#432825 0.5% ,#F74247);
+}
+.radial{
+    background: radial-gradient( #F74247 10%,#432825 110%);
+}
+.rect{
+    background: url(../media/bg.jpg.crdownload) 50% 50% no-repeat;
+    height: 400px;
+    border-radius: 28px;
+    line-height: 400px;
+    font-size: 28px;
+    font-weight: 600;
+    color: black;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.padding{
+    padding: 100px 40px;
+
+}
