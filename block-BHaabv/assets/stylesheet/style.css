@@ -1,0 +1,231 @@
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* custom  styles */
+*,::before,*::after{
+    box-sizing: border-box;
+}
+body{
+    font-size: 16px;
+    background-color:#20222F ;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 32px;
+}
+/* general classes */
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.wrap{
+    flex-wrap: wrap;
+}
+.align-start{
+    align-items: flex-start;
+}
+.center{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+.box{
+    width: 250px;
+    height: 250px;
+    border-radius: 8px;
+    background-color:rgb(37,43,67);
+    margin: 60px 0;
+    line-height: 1;
+    border: 2px solid #20222F;
+}
+.border-top{
+    width: 100%;
+    height: 4px;
+    background-color: #158EF5;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+}
+.padding{
+    padding: 30px 0;
+}
+.text-color{
+    color:#838AAD ;
+}
+.margin-left{
+margin-right: 30px;
+}
+.ratio-good {
+    color: #46C29F;
+    margin: 16px;
+}
+.ratio-good a{
+    color: #46C29F;
+    font-size: 18px;
+    padding: 10px;
+
+}
+.ratio-bad{
+    color:#a85759 ;
+      margin: 16px;
+}
+.ratio-bad a{
+    color: #993436;
+    font-size: 18px;
+  
+    padding: 10px;
+}
+.rect{
+    width: 250px;
+    height: 140px;
+    background-color: #252B43;
+    border: 2px solid #20222F;
+    border-radius: 8px;
+    margin:20px 12px;
+}
+/* icons style */
+.fb{
+    color:#158EF5 ;
+    font-size: 20px;
+    padding-top: 10px;
+    line-height: 10px;
+}
+.twt{
+        color:#158EF5 ;
+        font-size: 20px;
+        padding-top: 10px;
+        line-height: 10px;
+}
+.inst{
+    color:#AA7183 ;
+        font-size: 20px;
+        padding-top: 10px;
+        line-height: 10px
+}
+.yt{
+    color:#C12F2A;
+        font-size: 20px;
+        padding-top: 10px;
+        line-height: 10px
+}
+/* header style */
+.header{
+    padding: 40px 0;
+    background-color: #20222F;
+    padding-bottom: 40px;
+
+}
+.header h1{
+    font-size: 32px;
+    text-transform: capitalize;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+.header p{
+    font-size: 18px;
+
+}
+.btn-container span{
+color: #838AAD;
+}
+.btn{
+    width: 48px;
+    height: 20px;
+    border-radius: 28px;
+    background: linear-gradient(to right,#3db2b9, #3bd192);
+    margin-left: 16px;
+    padding-left: 4px;
+}
+.circle{
+    width:20px;
+    height:20px;
+    background-color: #252B43;
+    border-radius: 50%;
+
+}
+/* dashboard style */
+.dashboard p{
+    padding: 10px;
+    height: 10px;
+}
+.dashboard h2{
+    font-size: 44px;
+    font-weight: 700;
+    
+}
+.user{
+  margin-bottom: 70px;    
+}
+.design{
+    letter-spacing: 8px;
+    text-transform: uppercase;
+}
+
+/* overview style */
+.overview h3{
+    font-size:26px ;
+
+}
+.user-1{
+    margin: 20px 0 ;
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+}
+.num {
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+}
+.num h4{
+    font-size: 34px;
+    font-weight: 600;
+}
